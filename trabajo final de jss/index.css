@@ -1,0 +1,16 @@
+/* Estilos básicos para centrar el juego y darle un fondo limpio */
+html, body {
+    margin: 1;
+    padding: 1;
+    background: #42d847;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+  
+  canvas {
+    border: 500px solid #ce0f0f;
+    background: #fff;
+  }
